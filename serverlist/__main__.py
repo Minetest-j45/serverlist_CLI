@@ -23,5 +23,7 @@ def main():
         if arg == 'total_max_servers':
             total_max = jsonserverlistinfo['total_max']
             print(total_max['servers'])
+        if arg == 'serverlist':
+            print(serverlistinfo)
 if __name__ == '__main__':
     main()
