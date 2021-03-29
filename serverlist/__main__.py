@@ -9,11 +9,12 @@ def main():
         return
     serverlist =requests.get('https://servers.minetest.net/list')
     serverlistinfo = serverlist.text
+    jsonserverlistinfo = json.loads(serverlistinfo)
     #print(serverlistinfo)
     #print('count of args :: {}'.format(len(args)))
     for arg in args:
         if arg == 'totalclients':
-            print(serverlistinfo['total'])
+            print(jsonserverlistinfo['total'])
     #    print('passed argument :: {}'.format(arg))
 if __name__ == '__main__':
     main()
