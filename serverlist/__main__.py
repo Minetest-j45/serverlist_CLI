@@ -16,6 +16,9 @@ def main():
         if arg == 'totalclients':
             total = jsonserverlistinfo['total']
             print(total['clients'])
+        if arg == 'totalservers':
+            total = jsonserverlistinfo['total']
+            print(total['servers'])
     #    print('passed argument :: {}'.format(arg))
 if __name__ == '__main__':
     main()
