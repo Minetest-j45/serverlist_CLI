@@ -43,8 +43,6 @@ def main():
         arg2 = sys.argv[2]
         if arg == 'users':
             servers = jsonserverlistinfo['list']
-            print(arg2)
-            print(arg2.replace('\\', ' '))
             for server in servers:
                 if server['name'] == arg2.replace('\\', ' '):
                     print(server['clients_list'])
