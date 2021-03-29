@@ -6,7 +6,8 @@ def main():
     if len(args) == 0:
         print('You must have an argument')
         return
-    
+    r =requests.get('https://servers.minetest.net/list')
+    print(r.text)
     print('count of args :: {}'.format(len(args)))
     for arg in args:
         print('passed argument :: {}'.format(arg))
