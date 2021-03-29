@@ -1,5 +1,6 @@
 import sys
 import requests
+import json
 def main():
     print('in main')
     args = sys.argv[1:]
@@ -8,9 +9,11 @@ def main():
         return
     serverlist =requests.get('https://servers.minetest.net/list')
     serverlistinfo = serverlist.text
-    print(serverlistinfo)
-    print('count of args :: {}'.format(len(args)))
+    #print(serverlistinfo)
+    #print('count of args :: {}'.format(len(args)))
     for arg in args:
-        print('passed argument :: {}'.format(arg))
+        if arg = 'totalclients':
+            print(serverlistinfo['total'])
+    #    print('passed argument :: {}'.format(arg))
 if __name__ == '__main__':
     main()
