@@ -2,7 +2,6 @@ import sys
 import requests
 import json
 def main():
-    print('in main')
     args = sys.argv[1:]
     if len(args) == 0:
         print('You must have an argument')
