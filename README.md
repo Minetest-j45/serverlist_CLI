@@ -1,6 +1,6 @@
 # serverlist_CLI
-<br>
+<br />
 ## installation
-1. download
-2. run install.sh
-<br>
+1. download<br />
+2. run install.sh<br />
+<br />
