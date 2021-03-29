@@ -34,6 +34,9 @@ def main():
         if arg == 'serverlist':
             print(serverlistinfo)
             
+        if arg == 'users':
+            print('You must put a servername after you say users')
+            
     #for arg in args:
     if len(args) == 2:
         arg = sys.argv[1]
