@@ -12,7 +12,7 @@ def main():
     #print(serverlistinfo)
     #print('count of args :: {}'.format(len(args)))
     for arg in args:
-        if arg = 'totalclients':
+        if arg == 'totalclients':
             print(serverlistinfo['total'])
     #    print('passed argument :: {}'.format(arg))
 if __name__ == '__main__':
