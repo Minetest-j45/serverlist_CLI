@@ -44,13 +44,13 @@ def main():
         if arg == 'users':
             servers = jsonserverlistinfo['list']
             for server in servers:
-                if server['name'] == arg2.replace('\\', ' '):
+                if server['name'] == arg2.replace('\/', ' '):
                     print(server['clients_list'])
 
     if len(args) > 2:
         arg = sys.argv[1]
         if arg == 'users':
-            print('If you are trying to get the players of a server with a space in its name, replace the space with "\\\"')
+            print('If you are trying to get the players of a server with a space in its name, replace the space with "\/"')
 
 if __name__ == '__main__':
     main()
