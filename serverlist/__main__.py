@@ -10,7 +10,6 @@ def main():
     serverlistinfo = serverlist.text
     jsonserverlistinfo = json.loads(serverlistinfo)
     #print(serverlistinfo)
-    #print('count of args :: {}'.format(len(args)))
     for arg in args:
         if arg == 'totalclients':
             total = jsonserverlistinfo['total']
@@ -18,6 +17,5 @@ def main():
         if arg == 'totalservers':
             total = jsonserverlistinfo['total']
             print(total['servers'])
-    #    print('passed argument :: {}'.format(arg))
 if __name__ == '__main__':
     main()
