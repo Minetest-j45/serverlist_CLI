@@ -2,11 +2,10 @@
 ## Installation
 * Clone this repository
 * Run `install.sh`
-**usage**<br />
-<br />
+## Usage
 to run, change directory into the correct directory then ues `python3 serverlist/__main.py <command>`
 <br />
-**commands**<br />
+## Commands
 <br />
 1. total_clients - displays the total number of clients connected to a server<br />
 2. total_servers - displays the total number of servers<br />
