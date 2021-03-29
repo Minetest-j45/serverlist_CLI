@@ -1,10 +1,7 @@
-# serverlist_CLI
-<br />
-**installation**<br />
-<br />
-1. download<br />
-2. run install.sh<br />
-<br />
+# Serverlist CLI
+## Installation
+* Clone this repository
+* Run `install.sh`
 **usage**<br />
 <br />
 to run, change directory into the correct directory then ues `python3 serverlist/__main.py <command>`
