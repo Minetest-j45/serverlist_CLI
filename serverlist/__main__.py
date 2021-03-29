@@ -43,6 +43,6 @@ def main():
             for server in servers:
                 if server['name'] == arg2:
                 print(server['clients_list'])
-         
+       
 if __name__ == '__main__':
     main()
