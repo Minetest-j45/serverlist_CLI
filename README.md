@@ -3,7 +3,7 @@
 * Clone this repository
 * Run `install.sh`
 ## Usage
-to run, change directory into the correct directory then ues `python3 serverlist/__main.py <command>`
+to run, change directory into the correct directory then ues `python3 serverlist/__main__.py <command>`
 <br />
 ## Commands
 <br />
