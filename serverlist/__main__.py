@@ -4,6 +4,7 @@ def main():
     args = sys.argv[1:]
     if len(args) == 0:
         print('You must have an argument')
+        return
     print('count of args :: {}'.format(len(args)))
     for arg in args:
         print('passed argument :: {}'.format(arg))
