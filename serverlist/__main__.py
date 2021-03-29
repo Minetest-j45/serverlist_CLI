@@ -14,7 +14,8 @@ def main():
     #print('count of args :: {}'.format(len(args)))
     for arg in args:
         if arg == 'totalclients':
-            print(jsonserverlistinfo['total'].clients)
+            total = jsonserverlistinfo['total']
+            print(total['clients'])
     #    print('passed argument :: {}'.format(arg))
 if __name__ == '__main__':
     main()
