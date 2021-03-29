@@ -41,7 +41,7 @@ def main():
         if arg == 'users':
             servers = jsonserverlistinfo['list']
             for server in servers:
-                if server['name'] == arg2
+                if server['name'] == arg2:
                 print(server['clients_list'])
          
 if __name__ == '__main__':
