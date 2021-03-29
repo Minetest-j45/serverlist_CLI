@@ -2,7 +2,7 @@ import sys
 def main():
     print('in main')
     args = sys.argv[1:]
-    if format(len(args)) < 0:
+    if format(len(args)) == 0:
         return
     print('count of args :: {}'.format(len(args)))
     for arg in args:
