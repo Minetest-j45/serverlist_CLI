@@ -17,7 +17,7 @@ def main():
         if arg == 'total_servers':
             total = jsonserverlistinfo['total']
             print(total['servers'])
-         if arg == 'total_max_clients':
+        if arg == 'total_max_clients':
             total_max = jsonserverlistinfo['total_max']
             print(total_max['clients'])
         if arg == 'total_max_servers':
