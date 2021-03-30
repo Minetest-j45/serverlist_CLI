@@ -42,7 +42,7 @@ def main():
             print('You must put a servername after you say users')
         for command in commandswithparam:
             if arg == command:
-                print('You must put a servername after you say"',command,'"')
+                print('You must put a servername after you say "',command,'"')
             
     #for arg in args:
     if len(args) == 2:
