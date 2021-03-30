@@ -12,3 +12,4 @@ to run, change directory into the correct directory then ues `python3 serverlist
 * `total_max_clients` - displays the total number of clients that can be connected to all the servers<br />
 * `total_max_servers` - displays the total number of servers there could be<br />
 * `serverlist` - displays the entirety of https://servers.minetest.net/list<br />
+* `users <servername>` - displays the users currently online on that server (remember to reokace any spaces in the name with "//")<br />
