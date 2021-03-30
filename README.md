@@ -13,37 +13,37 @@ to run, change directory into the correct directory then use `python3 serverlist
 * `total_max_servers` - displays the total number of servers there could be<br />
 * `serverlist` - displays the entirety of https://servers.minetest.net/list<br />
 * `users <servername>` - displays the users currently online on that server (remember to reokace any spaces in the name with "//")<br />
-* 'address' 
-* 'clients'
-* 'clients_list' 
-* 'clients_max'
-* 'creative'
-* 'damage'
-* 'description'
-* 'game_time'
-* 'gameid'
-* 'lag'
-* 'name'
-* 'password'
-* 'port'
-* 'proto_max'
-* 'proto_min'
-* 'pvp'
-* 'server_id'
-* 'uptime'
-* 'version'
-* 'ip'
-* 'update_time'
-* 'start'
-* 'clients_top'
-* 'dedicated'
-* 'rollback'
-* 'mapgen'
-* 'privs'
-* 'can_see_far_names'
-* 'mods'
-* 'updates'
-* 'total_clients'
-* 'pop_v'
-* 'geo_continent'
-* 'ping'
+* 'address'<br />
+* 'clients'<br />
+* 'clients_list'<br />
+* 'clients_max'<br />
+* 'creative'<br />
+* 'damage'<br />
+* 'description'<br />
+* 'game_time'<br />
+* 'gameid'<br />
+* 'lag'<br />
+* 'name'<br />
+* 'password'<br />
+* 'port'<br />
+* 'proto_max'<br />
+* 'proto_min'<br />
+* 'pvp'<br />
+* 'server_id'<br />
+* 'uptime'<br />
+* 'version'<br />
+* 'ip'<br />
+* 'update_time'<br />
+* 'start'<br />
+* 'clients_top'<br />
+* 'dedicated'<br />
+* 'rollback'<br />
+* 'mapgen'<br />
+* 'privs'<br />
+* 'can_see_far_names'<br />
+* 'mods'<br />
+* 'updates'<br />
+* 'total_clients'<br />
+* 'pop_v'<br />
+* 'geo_continent'<br />
+* 'ping'<br />
