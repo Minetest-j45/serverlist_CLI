@@ -40,6 +40,9 @@ def main():
             
         if arg == 'users':
             print('You must put a servername after you say users')
+        for command in commandswithparam:
+            if arg == command:
+                print('You must put a servername after you say"',command,'"')
             
     #for arg in args:
     if len(args) == 2:
@@ -51,23 +54,13 @@ def main():
                 for server in servers:
                     if server['name'] == arg2.replace('//', ' '):
                         print(server[command])
-        #if arg == 'users':
-        #    for server in servers:
-        #        if server['name'] == arg2.replace('//', ' '):
-        #           print(server['clients_list'])
-                    
-        #if arg == 'ip':
-        #    for server in servers:
-        #        if server['name'] == arg2.replace('//', ' '):
-        #            print(server['ip'])
-
+                        
+                        
     if len(args) > 2:
         arg = sys.argv[1]
-        if arg == 'users':
-            print('If you are trying to get the players of a server with a space in its name, replace the space with "//"')
         for command in commandswithparam:
             if arg == command:
-                print('If you are trying to get the ',command,'of a server with a space in its name, replace the space with "//"')
+                print('If you are trying to get the',command,'of a server with a space in its name, replace the space with "//"')
 
 if __name__ == '__main__':
     main()
