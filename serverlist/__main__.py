@@ -51,7 +51,7 @@ def main():
             if arg == command:
                 for server in servers:
                     if server['name'] == arg2.replace('//', ' '):
-                    print(server[command])
+                        print(server[command])
         #if arg == 'users':
         #    for server in servers:
         #        if server['name'] == arg2.replace('//', ' '):
