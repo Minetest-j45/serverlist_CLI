@@ -2,6 +2,9 @@ import sys
 import requests
 import json
 def main():
+    commandswithparam = {'address', 'clients', 'clients_list', 'clients_max', 'creative', 'damage', 'description', 'game_time', 'gameid', 'lag', 'name', 'password', 'port',
+                         'proto_max', 'proto_min', 'pvp', 'server_id', 'uptime', 'version', 'ip', 'update_time', 'start', 'clients_top', 'dedicated', 'rollback', 'mapgen',
+                         'privs', 'can_see_far_names', 'mods', 'updates', 'total_clients', 'pop_v', 'geo_continent', 'ping'}
     args = sys.argv[1:]
     if len(args) == 0:
         print('You must have an argument')
@@ -41,11 +44,16 @@ def main():
     if len(args) == 2:
         arg = sys.argv[1]
         arg2 = sys.argv[2]
+        servers = jsonserverlistinfo['list']
         if arg == 'users':
-            servers = jsonserverlistinfo['list']
             for server in servers:
                 if server['name'] == arg2.replace('//', ' '):
                     print(server['clients_list'])
+                    
+        if arg == 'ip':
+            for server in servers:
+                if server['name'] == arg2.replace('//', ' '):
+                    print(server['ip'])
 
     if len(args) > 2:
         arg = sys.argv[1]
