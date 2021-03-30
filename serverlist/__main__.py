@@ -6,7 +6,6 @@ def main():
                          'proto_max', 'proto_min', 'pvp', 'server_id', 'uptime', 'version', 'ip', 'update_time', 'start', 'clients_top', 'dedicated', 'rollback', 'mapgen',
                          'privs', 'can_see_far_names', 'mods', 'updates', 'total_clients', 'pop_v', 'geo_continent', 'ping'}
     
-    jsoncommandswithparam = json.loads(commandswithparam)
     args = sys.argv[1:]
     if len(args) == 0:
         print('You must have an argument')
@@ -47,7 +46,7 @@ def main():
         arg = sys.argv[1]
         arg2 = sys.argv[2]
         servers = jsonserverlistinfo['list']
-        for command in jsoncommandswithparam:
+        for command in commandswithparam:
             if arg == command:
                 for server in servers:
                     if server['name'] == arg2.replace('//', ' '):
