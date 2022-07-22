@@ -1,0 +1,8 @@
+README.md
+setup.py
+serverlist/__main__.py
+serverlist_CLI.egg-info/PKG-INFO
+serverlist_CLI.egg-info/SOURCES.txt
+serverlist_CLI.egg-info/dependency_links.txt
+serverlist_CLI.egg-info/entry_points.txt
+serverlist_CLI.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+serverlist = serverlist.__main__:main
+
